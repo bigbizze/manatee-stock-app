@@ -53,19 +53,3 @@ const SymbolPage = () => {
 };
 
 export default SymbolPage;
-// export async function getStaticPaths() {
-//   const paths = await getAllStockSymbols();
-//   return {
-//     paths,
-//     fallback: false
-//   };
-// }
-//
-// export async function getStaticProps({ params }) {
-//   const symbolData = await getSymbolData(params.symbol);
-//   return {
-//     props: {
-//       symbolData: symbolData
-//     }
-//   };
-// }
