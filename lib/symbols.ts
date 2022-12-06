@@ -1,5 +1,6 @@
 import { objToQueryParams } from "./query-params";
 
+
 const makeFinnHubRequestURL = (addOn: string, queryParams: object) =>
   `https://finnhub.io/api/v1/${addOn}${objToQueryParams({
     ...queryParams,
