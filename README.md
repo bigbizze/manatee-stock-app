@@ -5,8 +5,8 @@ I used GPT-3/copilot and quicktype.io to assist in building the features present
 
 Clone repo
 ```bash
-git clone https://github.com/bigbizze/manatee-stock.git
-cd manatee-stock
+git clone https://github.com/bigbizze/manatee-stock-app.git
+cd manatee-stock-app
 ```
 
 ____
