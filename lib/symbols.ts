@@ -1,5 +1,8 @@
 import { objToQueryParams } from "./query-params";
 
+if (!process.env.FINNHUB_API_KEY) {
+  throw new Error(`FINNHUB_API_KEY environment variable is not set`);
+}
 const makeFinnHubRequestURL = (addOn: string, queryParams: object) =>
   `https://finnhub.io/api/v1/${addOn}${objToQueryParams({
     ...queryParams,
